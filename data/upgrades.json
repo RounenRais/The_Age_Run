@@ -1,0 +1,12 @@
+[
+  { "id": "vitality",   "name": "Vitality",          "desc": "+15 starting Max HP",            "stat": "max_hp",      "per_level": 15,   "max_level": 6, "base_cost": 25,  "cost_growth": 1.5 },
+  { "id": "strength",   "name": "Primal Strength",   "desc": "+6% weapon damage",              "stat": "damage_pct",  "per_level": 0.06, "max_level": 8, "base_cost": 30,  "cost_growth": 1.5 },
+  { "id": "agility",    "name": "Agility",           "desc": "+4% move speed",                 "stat": "speed_pct",   "per_level": 0.04, "max_level": 5, "base_cost": 25,  "cost_growth": 1.5 },
+  { "id": "learning",   "name": "Rapid Learning",    "desc": "+8% XP gain",                    "stat": "xp_pct",      "per_level": 0.08, "max_level": 5, "base_cost": 30,  "cost_growth": 1.5 },
+  { "id": "regen",      "name": "Cell Regeneration", "desc": "+0.4 HP regen per second",       "stat": "regen",       "per_level": 0.4,  "max_level": 4, "base_cost": 40,  "cost_growth": 1.6 },
+  { "id": "carapace",   "name": "Carapace",          "desc": "+1 Armor (flat damage reduction)","stat": "armor",      "per_level": 1,    "max_level": 4, "base_cost": 45,  "cost_growth": 1.6 },
+  { "id": "greed",      "name": "Scavenger",         "desc": "+15% Energy gain in runs",       "stat": "energy_pct",  "per_level": 0.15, "max_level": 4, "base_cost": 25,  "cost_growth": 1.5 },
+  { "id": "mastery",    "name": "Evolution Mastery", "desc": "+10% Evolution Points earned",   "stat": "evo_pct",     "per_level": 0.10, "max_level": 4, "base_cost": 60,  "cost_growth": 1.6 },
+  { "id": "slots",      "name": "Extra Limb",        "desc": "+1 weapon slot (max 6)",         "stat": "weapon_slots","per_level": 1,    "max_level": 2, "base_cost": 150, "cost_growth": 2.2 },
+  { "id": "revival",    "name": "Second Genesis",    "desc": "Revive once per run at 50% HP",  "stat": "revive",      "per_level": 1,    "max_level": 1, "base_cost": 300, "cost_growth": 1.0 }
+]

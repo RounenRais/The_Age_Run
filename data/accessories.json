@@ -1,0 +1,22 @@
+[
+  { "id": "membrane",       "name": "Thick Membrane",   "era": 0, "desc": "+20 Max HP per level",            "stat": "max_hp",        "amount": 20 },
+  { "id": "flagella",       "name": "Flagella",         "era": 0, "desc": "+8% Move Speed per level",        "stat": "speed_pct",     "amount": 0.08 },
+  { "id": "mitochondria",   "name": "Mitochondria",     "era": 0, "desc": "+0.6 HP Regen/s per level",       "stat": "regen",         "amount": 0.6 },
+  { "id": "receptor",       "name": "Chemo Receptor",   "era": 0, "desc": "+25% Pickup Radius per level",    "stat": "pickup_pct",    "amount": 0.25 },
+
+  { "id": "hide",           "name": "Thick Hide",       "era": 1, "desc": "+2 Armor per level",              "stat": "armor",         "amount": 2 },
+  { "id": "adrenal_gland",  "name": "Adrenal Gland",    "era": 1, "desc": "+8% Attack Speed per level",      "stat": "cooldown_pct",  "amount": 0.08 },
+  { "id": "keen_eyes",      "name": "Keen Eyes",        "era": 1, "desc": "+8% Crit Chance per level",       "stat": "crit",          "amount": 0.08 },
+
+  { "id": "totem_charm",    "name": "Totem Charm",      "era": 2, "desc": "+15% XP Gain per level",          "stat": "xp_pct",        "amount": 0.15 },
+  { "id": "war_paint",      "name": "War Paint",        "era": 2, "desc": "+12% Damage per level",           "stat": "damage_pct",    "amount": 0.12 },
+  { "id": "healing_herbs",  "name": "Healing Herbs",    "era": 2, "desc": "+1.2 HP Regen/s per level",       "stat": "regen",         "amount": 1.2 },
+
+  { "id": "armor_plating",  "name": "Armor Plating",    "era": 3, "desc": "+4 Armor per level",              "stat": "armor",         "amount": 4 },
+  { "id": "targeting_chip", "name": "Targeting Chip",   "era": 3, "desc": "+12% Crit Chance per level",      "stat": "crit",          "amount": 0.12 },
+  { "id": "generator",      "name": "Power Generator",  "era": 3, "desc": "+12% Attack Speed per level",     "stat": "cooldown_pct",  "amount": 0.12 },
+
+  { "id": "shield_gen",     "name": "Shield Generator", "era": 4, "desc": "+60 Max HP per level",            "stat": "max_hp",        "amount": 60 },
+  { "id": "nanobots",       "name": "Nanobots",         "era": 4, "desc": "+3 HP Regen/s per level",         "stat": "regen",         "amount": 3.0 },
+  { "id": "dark_matter",    "name": "Dark Matter Cell", "era": 4, "desc": "+20% Damage per level",           "stat": "damage_pct",    "amount": 0.20 }
+]

@@ -1,0 +1,18 @@
+{
+  "evolution_points": 49,
+  "upgrades": {
+    "vitality": 5
+  },
+  "unlocked": [
+    "boomerang",
+    "minigun",
+    "singularity"
+  ],
+  "stats": {
+    "total_runs": 3,
+    "best_era": 6,
+    "total_kills": 3936,
+    "playtime": 3167.8746666708084,
+    "victories": 1
+  }
+}

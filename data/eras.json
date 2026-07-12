@@ -1,0 +1,107 @@
+[
+  {
+    "id": "cell",
+    "name": "CELL ERA",
+    "icon": "cell",
+    "bg_color": [8, 24, 28],
+    "palette": {
+      "primary": [46, 204, 148],
+      "accent": [120, 255, 200],
+      "dark": [10, 40, 36],
+      "panel": [14, 46, 42],
+      "text": [220, 255, 240]
+    },
+    "waves": [
+      { "duration": 60, "interval": 1.30, "enemies": { "amoeba": 5, "bacteria": 3 } },
+      { "duration": 65, "interval": 1.05, "enemies": { "amoeba": 4, "bacteria": 4, "virus": 2 } },
+      { "duration": 70, "interval": 0.85, "enemies": { "amoeba": 3, "bacteria": 4, "virus": 3 } },
+      { "duration": 70, "interval": 0.70, "enemies": { "amoeba": 3, "bacteria": 3, "virus": 4 } },
+      { "duration": 75, "interval": 0.55, "enemies": { "amoeba": 4, "bacteria": 2, "virus": 4 } }
+    ],
+    "boss": "mother_amoeba"
+  },
+  {
+    "id": "creature",
+    "name": "CREATURE ERA",
+    "icon": "claw",
+    "bg_color": [26, 20, 12],
+    "palette": {
+      "primary": [214, 126, 44],
+      "accent": [255, 190, 100],
+      "dark": [40, 26, 12],
+      "panel": [50, 34, 18],
+      "text": [255, 236, 210]
+    },
+    "waves": [
+      { "duration": 60, "interval": 1.15, "enemies": { "insect": 5, "raptor": 2 } },
+      { "duration": 65, "interval": 0.95, "enemies": { "insect": 4, "raptor": 3 } },
+      { "duration": 70, "interval": 0.80, "enemies": { "insect": 3, "raptor": 4, "beast": 1 } },
+      { "duration": 70, "interval": 0.65, "enemies": { "insect": 3, "raptor": 3, "beast": 2 } },
+      { "duration": 75, "interval": 0.52, "enemies": { "insect": 2, "raptor": 4, "beast": 3 } }
+    ],
+    "boss": "alpha_predator"
+  },
+  {
+    "id": "tribe",
+    "name": "TRIBE ERA",
+    "icon": "torch",
+    "bg_color": [24, 18, 16],
+    "palette": {
+      "primary": [200, 92, 40],
+      "accent": [255, 160, 60],
+      "dark": [44, 32, 26],
+      "panel": [56, 42, 32],
+      "text": [255, 230, 200]
+    },
+    "waves": [
+      { "duration": 62, "interval": 1.05, "enemies": { "wolf": 4, "hunter": 2 } },
+      { "duration": 66, "interval": 0.90, "enemies": { "wolf": 4, "hunter": 3 } },
+      { "duration": 70, "interval": 0.75, "enemies": { "wolf": 3, "hunter": 4, "brute": 1 } },
+      { "duration": 72, "interval": 0.62, "enemies": { "wolf": 3, "hunter": 3, "brute": 2 } },
+      { "duration": 76, "interval": 0.50, "enemies": { "wolf": 2, "hunter": 4, "brute": 3 } }
+    ],
+    "boss": "tribal_shaman"
+  },
+  {
+    "id": "civilization",
+    "name": "CIVILIZATION ERA",
+    "icon": "gear",
+    "bg_color": [18, 20, 24],
+    "palette": {
+      "primary": [170, 60, 60],
+      "accent": [255, 120, 110],
+      "dark": [34, 38, 44],
+      "panel": [44, 48, 56],
+      "text": [235, 235, 240]
+    },
+    "waves": [
+      { "duration": 64, "interval": 1.00, "enemies": { "drone": 4, "soldier": 3 } },
+      { "duration": 68, "interval": 0.85, "enemies": { "drone": 4, "soldier": 4 } },
+      { "duration": 72, "interval": 0.72, "enemies": { "drone": 3, "soldier": 4, "armor_unit": 1 } },
+      { "duration": 74, "interval": 0.60, "enemies": { "drone": 3, "soldier": 3, "armor_unit": 2 } },
+      { "duration": 78, "interval": 0.48, "enemies": { "drone": 2, "soldier": 4, "armor_unit": 3 } }
+    ],
+    "boss": "war_machine"
+  },
+  {
+    "id": "space",
+    "name": "SPACE ERA",
+    "icon": "rocket",
+    "bg_color": [12, 8, 26],
+    "palette": {
+      "primary": [140, 80, 255],
+      "accent": [80, 240, 255],
+      "dark": [24, 16, 48],
+      "panel": [32, 22, 62],
+      "text": [230, 220, 255]
+    },
+    "waves": [
+      { "duration": 66, "interval": 0.95, "enemies": { "energy_being": 4, "alien": 3 } },
+      { "duration": 70, "interval": 0.80, "enemies": { "energy_being": 4, "alien": 4 } },
+      { "duration": 74, "interval": 0.68, "enemies": { "energy_being": 3, "alien": 4, "robot": 1 } },
+      { "duration": 76, "interval": 0.56, "enemies": { "energy_being": 3, "alien": 3, "robot": 2 } },
+      { "duration": 80, "interval": 0.45, "enemies": { "energy_being": 2, "alien": 4, "robot": 3 } }
+    ],
+    "boss": "godlike_entity"
+  }
+]
